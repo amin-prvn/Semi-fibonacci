@@ -1,4 +1,5 @@
 def sequence(n):
+    # Check user input
     if n < 0 or n > 1000000000:
         raise ValueError('Input must be between 0 and 1,000,000,000.')
     
@@ -19,5 +20,6 @@ def sequence(n):
     
     return prev_member
 
+# Main 
 if __name__ == '__main__':
     print(sequence(11))
