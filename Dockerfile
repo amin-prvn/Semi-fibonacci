@@ -7,5 +7,5 @@ WORKDIR /app
 # Copy the Python code into the container
 COPY app.py .
 
-# Run the Test script when the container starts
+# Run the script when the container starts
 CMD ["python", "app.py"]
