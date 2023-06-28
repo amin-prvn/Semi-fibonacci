@@ -10,3 +10,22 @@ The time complexity of this fuction is O(n * k) = O(n)
 
 ### Space Complexity
 O(1)
+
+## How run unit test
+To build the unit-test Docker image:
+```
+docker build -t test-sequence-image -f DockerfileTest .
+```
+To run the unit-test Docker container:
+```
+docker run --rm test-sequence-image
+```
+## How run sequence code
+To build the Docker image:
+```
+docker build -t sequence-image -f Dockerfile .
+```
+To run the Docker container:
+```
+docker run --rm sequence-image
+```
